@@ -21,6 +21,10 @@
   padding-right: 15px;
   outline: 2px solid tomato;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .page {
   background-color: var(--primary-background);
   color: var(--primary-text-color);
@@ -123,7 +127,7 @@
 }
 
 /* class="TEAM" */
-.section h2 {
+.section .team {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -133,9 +137,7 @@
   font-size: 16px;
   line-height: 1.19;
 }
-.section {
-  background-color: var(--section-background);
-}
+
 
 .list-team .text {
   color: var(--title-text-color);
@@ -188,11 +190,11 @@
   background-color: var(--section-background);
   color: var(--primary-text-color);
   cursor: pointer;
-
+ display:block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
+  
 }
 .filters .button:hover,
 .filters .button:focus {
@@ -201,8 +203,23 @@
 .filters .button:active {
   color: tomato;
 }
-.gallery p {
+.gallery-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-text-color)
+}
+
+.gallery-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
+  
+  
+
+
