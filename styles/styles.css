@@ -148,6 +148,7 @@
   margin-bottom: 50px;
   
 }
+
 .first{
   padding-top: 94px;
   padding-bottom: 0px;
@@ -255,7 +256,7 @@
   color: var(--title-text-color);
   margin-top: 4px;
     margin-bottom: 0px;
-    text-decoration: none;
+    
 }
 .card{
   background-color: var(--white-color);
@@ -264,6 +265,9 @@
     top: 262px;
     display:inline-block;
     border: 1px solid #EEEEEE;
-    text-decoration: none;
     
+    
+}
+.text-card , .logo{
+  text-decoration: none;
 }
