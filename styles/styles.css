@@ -39,7 +39,6 @@
 
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
 }
 
 .logo-header {
@@ -67,14 +66,10 @@
 .site-nav .link:focus {
   color: var(--blue-color);
 }
-.site-nav .link:active {
-  color: tomato;
-}
 
-.logo-link:active {
-  color: red;
-}
-.logo-black:active {
+.logo-black:active,
+.logo-link:active,
+.site-nav .link:active {
   color: red;
 }
 .site-nav .link.current {
@@ -105,9 +100,11 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+ 
 }
 .hero .title {
   color: var(--white-color);
+  
 }
 
 /* class="Features" */
@@ -158,14 +155,13 @@
 
   text-decoration: none;
 }
-.address-map:active {
-  color: tomato;
-}
+
 .address-text:hover,
 .address-text:focus {
   color: var(--blue-color);
 }
-.address-text:active {
+.address-text:active,
+.address-map:active {
   color: tomato;
 }
 /* Button */
@@ -177,10 +173,9 @@
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  border: 0;
 }
-.hero .button:active {
-  color: tomato;
-}
+
 .filters .button {
   background-color: var(--section-background);
   color: var(--primary-text-color);
@@ -189,12 +184,15 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  border: 0;
 }
 .filters .button:hover,
-.filters .button:focus {
+.filters .button:focus ,.address-text:hover,
+.address-text:focus {
   color: var(--blue-color);
 }
-.filters .button:active {
+.filters .button:active,
+.hero .button:active {
   color: tomato;
 }
 .gallery-item {
