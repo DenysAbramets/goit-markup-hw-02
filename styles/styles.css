@@ -21,8 +21,12 @@
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 1px solid red;
+  
+  
   
 }
+
 
 
 
@@ -32,7 +36,7 @@
   padding-bottom: 94px;
 }
 .page {
-  background-color: var(--primary-background);
+  background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -65,7 +69,37 @@
 }
 
 /* Навігація */
+.up{
+  margin-left: 215px;
+}
+
+.site-nav{
+  display:flex;
+  margin-left: 93px;
+
+}
+.site-nav .item+ .item{
+  margin-left: 50px;
+}
+/* .site-nav>.item:not(:last-child){
+  margin-right: 50px;
+} */
+.link-nav{
+  display: flex;
+  align-items: baseline;
+  margin-left: auto;
+}
+.link-nav .item+ .item{
+  margin-left: 50px;
+}
+.main-nav{
+  display: flex;
+  align-items: center;
+}
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   line-height: 1.15;
   letter-spacing: 0.02em;
@@ -137,21 +171,41 @@
 }
 .features{
   display: flex;
+  align-items: baseline;
     
 }
-.flex{
-  display:flex;
-  padding-right: 30px;
+.features .box+ .box{
+  margin-right: 30px;
+}
+.features .box{
+  display: block;
 }
 
+.flex{
+  display:flex;
+
+
+}
+
+.flex .box+ .box{
+  margin-left: 30px;
+
+}
 
 .features-title {
   margin-top: 0px;
   margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--primary-text-color)
 }
 
+
 /* class="TEAM" */
-.first .team,
+.section .team,
 .section .item {
   font-size: 36px;
   line-height: 1.17;
@@ -169,8 +223,33 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 0px;
-  margin-top: 30px;
+  
+}
+
+.list-team {
+  display:flex;
+ justify-content: flex-end;
+ 
+}
+
+.section-image{
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #FFFFFF;
+  width: 270px;
+}
+.section-image .name{
+margin-top: 30px;
+margin-bottom: 0px;
+}
+.section-image .img{
+  display: block;
+}
+.section-image:not(:last-child){
+margin-right: 30px;
+}
+.last{
+  background-color:var(--section-background)
 }
 
 .list-team .text {
@@ -185,6 +264,10 @@
 .footer {
   background-color: var(--secondary-background);
 }
+.down{
+  padding-top: 60px;
+}
+
 .address-text {
   color: var(--address-text-color);
   font-weight: 400;
@@ -198,6 +281,13 @@
   line-height: 1.71;
 
   text-decoration: none;
+  padding-top: 20px;
+}
+.adress-up{
+  padding-top: 20px;
+}
+.adress-down{
+  padding-top: 9px;
 }
 
 .address-text:hover,
