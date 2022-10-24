@@ -259,13 +259,18 @@
   line-height: 1.71;
 
   text-decoration: none;
-  padding-top: 20px;
+  
 }
 .adress-up {
   padding-top: 20px;
 }
 .adress-down {
-  padding-top: 9px;
+  margin-top: 9px;
+  
+
+}
+.address{
+  padding-bottom: 60px;
 }
 
 .address-text:hover,
