@@ -212,6 +212,7 @@
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
   width: 270px;
+  text-align: center;
 }
 .section-image .name {
   margin-top: 30px;
@@ -227,12 +228,14 @@
   background-color: var(--section-background);
 }
 
+
+
 .list-team .text {
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   margin-top: 10px;
 }
 /* Футер */
