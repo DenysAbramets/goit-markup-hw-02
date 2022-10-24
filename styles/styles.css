@@ -152,10 +152,11 @@
   line-height: 1.71;
   margin-top: 10px;
   margin-bottom: 0px;
+  min-width: 270px;
 }
 .features {
   display: flex;
-  align-items: baseline;
+ 
 }
 .features .box + .box {
   margin-right: 30px;
@@ -197,11 +198,7 @@
   padding-top: 94px;
   padding-bottom: 0px;
 }
-.section h3 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-}
+
 
 .list-team {
   display: flex;
